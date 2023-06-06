@@ -34,7 +34,7 @@ Exec=com.github.rajsolai.textsnatcher %U
 Icon=/opt/TextSnatcher/TextSnatcher.svg
 Terminal=false
 TryExec=com.github.rajsolai.textsnatcher
-Categories=Qt;KDE;Utility;Calculator;X-KDE-Utilities-Desktop;" sudo > sudo /usr/share/applications/com.github.rajsolai.textsnatcher.desktop
+Categories=Qt;KDE;Utility;Calculator;X-KDE-Utilities-Desktop;" > sudo /usr/share/applications/com.github.rajsolai.textsnatcher.desktop
 
 
 
