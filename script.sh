@@ -1,4 +1,4 @@
-sudo apt install valac meson libgee-0.8-dev libgtk-4-dev libsass-dev sassc libgranite-dev cmake gi-docgen qtbase5-dev libqt5x11extras5-dev qttools5-dev-tools python3 python3-pytest python3-dbus python3-dbusmock tesseract-ocr
+sudo apt install valac meson libgee-0.8-dev libgtk-4-dev libsass-dev sassc libgranite-dev cmake gi-docgen qtbase5-dev libqt5x11extras5-dev qttools5-dev-tools python3 python3-pytest python3-dbus python3-dbusmock tesseract-ocr -y
 
 #libhandy-1
 git clone https://gitlab.gnome.org/GNOME/libhandy.git
