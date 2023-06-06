@@ -25,7 +25,7 @@ sudo ninja install && com.github.rajsolai.textsnatcher
 
 sudo mkdir /opt/TextSnatcher
 
-echo "[Desktop Entry]
+sudo sh -c 'echo "[Desktop Entry]
 Type=Application
 Name=TextSnatcher
 GenericName=TextSnatcher
@@ -34,7 +34,8 @@ Exec=com.github.rajsolai.textsnatcher %U
 Icon=/opt/TextSnatcher/TextSnatcher.svg
 Terminal=false
 TryExec=com.github.rajsolai.textsnatcher
-Categories=Qt;KDE;Utility;Calculator;X-KDE-Utilities-Desktop;" > sudo /usr/share/applications/com.github.rajsolai.textsnatcher.desktop
+Categories=Qt;KDE;Utility;Calculator;X-KDE-Utilities-Desktop;" > /usr/share/applications/com.github.rajsolai.textsnatcher.desktop'
+
 
 
 
